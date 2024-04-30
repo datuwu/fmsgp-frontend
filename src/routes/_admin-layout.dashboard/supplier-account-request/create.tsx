@@ -28,7 +28,6 @@ const Page = () => {
 
     useDocumentTitle('Create Supplier Account Request');
 
-    
     if (userMe.isLoading) {
         return <div>Loading...</div>;
     }

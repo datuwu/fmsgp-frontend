@@ -42,7 +42,7 @@ const Page: React.FunctionComponent<PageProps> = () => {
         },
     });
 
-    useDocumentTitle('Product Category');
+    //useDocumentTitle('Product Category');
 
     return (
         <div>

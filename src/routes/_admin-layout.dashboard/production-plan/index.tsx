@@ -30,7 +30,7 @@ import { useNKRouter } from '@/core/routing/hooks/NKRouter';
 import { RootState } from '@/core/store';
 import { UserState } from '@/core/store/user';
 
-interface PageProps {}
+//interface PageProps {}
 
 const Page: React.FunctionComponent<PageProps> = () => {
     const router = useNKRouter();

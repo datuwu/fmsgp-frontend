@@ -27,10 +27,10 @@ import { UserState } from '@/core/store/user';
 interface PageProps {}
 
 const Page: React.FunctionComponent<PageProps> = () => {
-    // const router = useNKRouter();
-    // const queryClient = useQueryClient();
+    const router = useNKRouter();
+    const queryClient = useQueryClient();
 
-    // const { id, isPurchasingManager, isPurchasingStaff, isManager, isAdmin } = useSelector<RootState, UserState>((state: RootState) => state.user);
+    const { id, isPurchasingManager, isPurchasingStaff, isManager, isAdmin } = useSelector<RootState, UserState>((state: RootState) => state.user);
 
     const deleteWarehouseMutation = useMutation({
         mutationFn: (id: number) => warehouseApi.delete(id),

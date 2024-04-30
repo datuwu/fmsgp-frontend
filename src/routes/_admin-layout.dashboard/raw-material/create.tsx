@@ -14,7 +14,7 @@ import { useNKRouter } from '@/core/routing/hooks/NKRouter';
 const Page = () => {
     const router = useNKRouter();
 
-    // useDocumentTitle('Create Raw Material');
+    useDocumentTitle('Create Raw Material');
 
     // | 'minToleranceWeight'
     //     | 'maxToleranceWeight'

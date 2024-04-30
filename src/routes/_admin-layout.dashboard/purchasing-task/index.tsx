@@ -37,13 +37,13 @@ const Page: React.FunctionComponent<PageProps> = () => {
         initialData: [],
     });
 
-    const purchasingTask = useQuery({
-        queryKey: ['purchasing-task'],
-        queryFn: async () => {
-            return await purchasingTaskApi.getAll();
-        },
-        initialData: [],
-    });
+    // const purchasingTask = useQuery({
+    //     queryKey: ['purchasing-task'],
+    //     queryFn: async () => {
+    //         return await purchasingTaskApi.getAll();
+    //     },
+    //     initialData: [],
+    // });
 
     const purchasingPlan = useQuery({
         queryKey: ['purchasing-plan'],

@@ -26,7 +26,7 @@ const Page: React.FunctionComponent<PageProps> = () => {
     const queryClient = useQueryClient();
     const { isManager, isPurchasingStaff } = useSelector<RootState, UserState>((state) => state.user);
 
-    //useDocumentTitle('Supplier Account Request List');
+    useDocumentTitle('Supplier Account Request List');
 
     return (
         <div>

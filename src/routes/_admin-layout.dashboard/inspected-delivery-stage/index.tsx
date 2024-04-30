@@ -105,7 +105,6 @@ const Page: React.FunctionComponent<PageProps> = () => {
     );
 };
 
-
 export const Route = createFileRoute('/_admin-layout/dashboard/inspected-delivery-stage/')({
     component: Page,
 });

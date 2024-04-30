@@ -21,13 +21,13 @@ const Page: React.FunctionComponent<PageProps> = () => {
     const queryClient = useQueryClient();
     const { isPurchasingManager, purchasingStaffId, isPurchasingStaff } = useSelector<RootState, UserState>((state: RootState) => state.user);
 
-    const purchasingStaff = useQuery({
-        queryKey: ['purchasing-staff'],
-        queryFn: async () => {
-            return await userApi.getByRole(3);
-        },
-        initialData: [],
-    });
+    // const purchasingStaff = useQuery({
+    //     queryKey: ['purchasing-staff'],
+    //     queryFn: async () => {
+    //         return await userApi.getByRole(3);
+    //     },
+    //     initialData: [],
+    // });
 
     const rawMaterial = useQuery({
         queryKey: ['raw-material'],

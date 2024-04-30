@@ -19,7 +19,6 @@ import { UserState } from '@/core/store/user';
 
 interface PageProps {}
 
-
 const Page: React.FunctionComponent<PageProps> = () => {
     const queryClient = useQueryClient();
     const { id, isAuth, isPurchasingManager, isPurchasingStaff, isManager, isAdmin, purchasingStaffId, isInspector } = useSelector<

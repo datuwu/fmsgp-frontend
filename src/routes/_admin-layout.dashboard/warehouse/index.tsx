@@ -30,6 +30,8 @@ const Page: React.FunctionComponent<PageProps> = () => {
     const router = useNKRouter();
     const queryClient = useQueryClient();
 
+
+    
     const { id, isPurchasingManager, isPurchasingStaff, isManager, isAdmin } = useSelector<RootState, UserState>((state: RootState) => state.user);
 
     const deleteWarehouseMutation = useMutation({

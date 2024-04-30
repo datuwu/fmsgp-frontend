@@ -26,11 +26,11 @@ const Page = () => {
         },
     });
 
-    // useDocumentTitle('Create Supplier Account Request');
+    useDocumentTitle('Create Supplier Account Request');
 
-    // if (userMe.isLoading) {
-    //     return <div>Loading...</div>;
-    // }
+    if (userMe.isLoading) {
+        return <div>Loading...</div>;
+    }
 
     return (
         <div className="fade-in w-full">

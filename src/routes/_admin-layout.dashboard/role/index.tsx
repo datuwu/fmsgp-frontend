@@ -19,7 +19,6 @@ import { useNKRouter } from '@/core/routing/hooks/NKRouter';
 
 interface PageProps {}
 
-
 const Page: React.FunctionComponent<PageProps> = () => {
     const router = useNKRouter();
     const queryClient = useQueryClient();

@@ -32,6 +32,8 @@ const Page: React.FunctionComponent<PageProps> = () => {
 
     const { id, isPurchasingManager, isPurchasingStaff, isManager, isAdmin } = useSelector<RootState, UserState>((state: RootState) => state.user);
 
+
+    
     const deleteWarehouseMutation = useMutation({
         mutationFn: (id: number) => warehouseApi.delete(id),
         onSuccess: () => {
@@ -45,7 +47,7 @@ const Page: React.FunctionComponent<PageProps> = () => {
         },
     });
 
-    
+
 
     useDocumentTitle('Warehouse List');
 

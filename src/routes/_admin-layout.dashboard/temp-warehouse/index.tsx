@@ -22,7 +22,6 @@ import { UserState } from '@/core/store/user';
 
 interface PageProps {}
 
-
 const Page: React.FunctionComponent<PageProps> = () => {
     const router = useNKRouter();
     const queryClient = useQueryClient();

@@ -29,13 +29,13 @@ const Page: React.FunctionComponent<PageProps> = () => {
         initialData: [],
     });
 
-    const rawMaterial = useQuery({
-        queryKey: ['raw-material'],
-        queryFn: async () => {
-            return await rawMaterialApi.getAll();
-        },
-        initialData: [],
-    });
+    // const rawMaterial = useQuery({
+    //     queryKey: ['raw-material'],
+    //     queryFn: async () => {
+    //         return await rawMaterialApi.getAll();
+    //     },
+    //     initialData: [],
+    // });
 
     const purchasingTask = useQuery({
         queryKey: ['purchasing-task'],

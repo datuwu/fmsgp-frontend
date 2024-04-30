@@ -53,7 +53,7 @@ const Page: React.FunctionComponent<PageProps> = () => {
         initialData: [],
     });
 
-    useDocumentTitle('Inspection Request Detail');
+    //useDocumentTitle('Inspection Request Detail');
 
     if (query.isLoading || packageUnit.isLoading) {
         return <div>Loading...</div>;

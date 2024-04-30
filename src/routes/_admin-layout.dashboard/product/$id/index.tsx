@@ -27,6 +27,7 @@ import { UserState } from '@/core/store/user';
 
 interface PageProps {}
 
+
 const Page: React.FunctionComponent<PageProps> = () => {
     const { id } = Route.useParams();
     const router = useNKRouter();

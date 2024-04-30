@@ -27,13 +27,13 @@ const Page = () => {
     const router = useNKRouter();
     const [currentProductionPlanId, setCurrentProductionPlanId] = useState<number | null>(null);
 
-    // const allWarehouseQuantityQuery = useQuery({
-    //     queryKey: ['warehouse-quantity'],
-    //     queryFn: async () => {
-    //         return await warehouseMaterialApi.getAllWarehouseMaterialByWarehouseId(2);
-    //     },
-    //     initialData: [],
-    // });
+    const allWarehouseQuantityQuery = useQuery({
+        queryKey: ['warehouse-quantity'],
+        queryFn: async () => {
+            return await warehouseMaterialApi.getAllWarehouseMaterialByWarehouseId(2);
+        },
+        initialData: [],
+    });
 
     const allProductionPlan = useQuery({
         queryKey: ['production-plan'],

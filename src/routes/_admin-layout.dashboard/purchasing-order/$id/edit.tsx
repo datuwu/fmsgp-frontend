@@ -20,7 +20,7 @@ import { NKFormType } from '@/core/components/form/NKForm';
 import { useDocumentTitle } from '@/core/hooks/useDocumentTitle';
 import { PurchaseTask } from '@/core/models/purchaseTask';
 import { useNKRouter } from '@/core/routing/hooks/NKRouter';
-
+//
 const Page = () => {
     const { id } = Route.useParams();
     const router = useNKRouter();

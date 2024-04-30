@@ -21,6 +21,7 @@ import { WarehouseFormStatusEnum, WarehouseFormTypeEnums } from '@/core/models/w
 import { RootState } from '@/core/store';
 import { UserState } from '@/core/store/user';
 
+
 const Page = () => {
     const queryClient = useQueryClient();
     const { id } = Route.useParams();

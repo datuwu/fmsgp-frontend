@@ -46,6 +46,7 @@ const Page: React.FunctionComponent<PageProps> = () => {
         initialData: [],
     });
 
+    
     useEffect(() => {
         if (productList.data.length && importRecord) {
             const expectedMaterials = importRecord.productInPlans

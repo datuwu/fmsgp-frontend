@@ -39,7 +39,7 @@ import { Route as AdminLayoutDashboardImportMainWarehouseRequestIndexImport } fr
 import { Route as AdminLayoutDashboardTempWarehouseRequestCreateImport } from './routes/_admin-layout.dashboard/temp-warehouse-request/create'
 import { Route as AdminLayoutDashboardSupplierCreateImport } from './routes/_admin-layout.dashboard/supplier/create'
 import { Route as AdminLayoutDashboardSupplierAccountRequestCreateImport } from './routes/_admin-layout.dashboard/supplier-account-request/create'
-import { Route as AdminLayoutDashboardRawMaterialCreateImport } from './routes/_admin-layout.dashboard/raw-material/create'
+import { Route as AdminLayoutDashboardRawMaterialCreateImport } from './routes/_admin-layout.dashboard/raw-material/$id/create'
 import { Route as AdminLayoutDashboardPurchasingPlanCreateImport } from './routes/_admin-layout.dashboard/purchasing-plan/create'
 import { Route as AdminLayoutDashboardPurchasingOrderCreateImport } from './routes/_admin-layout.dashboard/purchasing-order/create'
 import { Route as AdminLayoutDashboardInspectionRequestCreateImport } from './routes/_admin-layout.dashboard/inspection-request/create'

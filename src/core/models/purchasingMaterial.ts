@@ -1,0 +1,18 @@
+export interface PurchasingMaterial {
+    id: number;
+    materialName: string;
+    rawMaterialId: number;
+    companyMaterialCode: string;
+    unit: number;
+    unitPrice: number;
+    totalQuantity: number;
+    totalPrice: number;
+    tempImportDate: string;
+    tempExportDate: string;
+    mainImportDate: string;
+    mainExportDate: string;
+    planInspectDate: string;
+    warehouseStatus: number;
+    afterInspectQuantity: number;
+    afterInspectPrice: number;
+}

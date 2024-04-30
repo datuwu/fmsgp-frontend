@@ -15,8 +15,6 @@ const Page = () => {
 
     useDocumentTitle('Create Supplier');
 
-
-    
     return (
         <div className="fade-in w-full">
             <div className=" flex max-w-4xl flex-col gap-2">

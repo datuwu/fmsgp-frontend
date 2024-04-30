@@ -45,7 +45,7 @@ const Page: React.FunctionComponent<PageProps> = () => {
         },
     });
 
-    // useDocumentTitle('Warehouse List');
+    useDocumentTitle('Warehouse List');
 
     return (
         <div>

@@ -23,7 +23,7 @@ const Page: React.FunctionComponent<PageProps> = () => {
     const router = useNKRouter();
     const queryClient = useQueryClient();
 
-    //useDocumentTitle('User Role List');
+    useDocumentTitle('User Role List');
 
     return (
         <div>
